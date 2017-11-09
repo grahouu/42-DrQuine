@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-	This program will print its own source when run.
+	Start program
 */
 void	printquote(char **lines, int i)
 {
@@ -13,7 +13,7 @@ int		main()
 		"%s%c",
 		"#include <stdio.h>",
 		"/*",
-		"	This program will print its own source when run.",
+		"	Start program",
 		"*/",
 		"void	printquote(char **lines, int i)",
 		"{",
@@ -26,7 +26,7 @@ int		main()
 		"		%c%s%c%c%c",
 		"	};",
 		"/*",
-		"	Loops below output file",
+		"	output file",
 		"*/",
 		"	for(i = 1; i < 13; i++)",
 		"		printf(lines[0], lines[i], 10);",
@@ -38,7 +38,7 @@ int		main()
 		"}",
 	};
 /*
-	Loops below output file
+	output file
 */
 	for(i = 1; i < 13; i++)
 		printf(lines[0], lines[i], 10);
